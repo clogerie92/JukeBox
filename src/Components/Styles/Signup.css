@@ -1,0 +1,39 @@
+.signup-container {
+    background: url("https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: antiquewhite;
+}
+
+.signup-form-container {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 25px;
+    width: 35rem;
+}
+
+.signin-portal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.signin-option, .guest-option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#signup-btn, .signin-portal {
+    margin-left: 10px;
+}

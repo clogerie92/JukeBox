@@ -47,7 +47,7 @@ const LandingPage = () => {
     return (
         <div className="landing-container">
                 <p className="bio-container">
-                    Hi! My name is Carl Logerie and I am a full stack software engineer. I recently graduated from the Rutgers Coding Bootcamp and wanted to test my skills by building a web application from scratch. As a music lover, I wanted to build a web app that curates a playlist and tour dates of an artist that was searched. This web app also features a record store where users can purchase vinyl records. If you have any questions about this web application or want to get in contact feel free to send me a message below!
+                    Hi! My name is Carl Logerie and I am a full stack software engineer. I recently graduated from the Rutgers Coding Bootcamp and wanted to test my skills by building a web application from scratch. As a music lover, I wanted to build a web app that curates playlists and tour dates of an artist that was searched. This web app also features a record store where users can purchase vinyl records and leave reviews if they have an account. If you have any questions about this web application or want to get in contact feel free to send me a message below!
                 </p>
             <div className="contact-container">
                 <form onSubmit={handleFormSubmit}>
