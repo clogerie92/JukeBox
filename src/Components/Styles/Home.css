@@ -1,0 +1,53 @@
+.home-container {
+    background: linear-gradient(to bottom, black, silver);
+    color: antiquewhite;
+    }
+    
+    .about-jukebox, .about-api {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .about-article {
+        width: 400px;
+    }
+    
+    .jukebox-figure-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+        width: 600px;
+    }
+    
+    .jukebox-figure-1 img {
+        height: 280px;
+        border-radius: 20px;
+    }
+    
+    .spotify-api-figure {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 275px;
+        width: 450px;
+    }
+    
+    .spotify-api-figure  img {
+        border-radius: 20px;    
+        width: 350px;
+    }
+
+    .ticketmaster-api-figure  img {
+        border-radius: 20px;    
+        width: 400px;
+    }
+    
+    @media screen and (max-width: 1200px) {
+        .about-jukebox, .about-api {
+            flex-direction: column;
+        }
+    }
+    
+    
