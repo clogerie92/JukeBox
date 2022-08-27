@@ -6,7 +6,7 @@ import Home from './Components/Pages/Home';
 import Dashboard from './Components/Pages/Dashboard';
 import Signin from './Components/Pages/Signin';
 import Signup from './Components/Pages/Signup';
-import Shop from './Components/Pages/Shop';
+// import Shop from './Components/Pages/Shop';
 import Footer from './Components/Footer';
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
          <Routes>
           <Route path="/" element={<LandingPage />}/>
           <Route path="/home" element={<Home />}/>
-          {/* <Route path="/dashboard" element={<Dashboard />}/> */}
+          <Route path="/dashboard" element={<Dashboard />}/>
           {/* <Route path="/signin" element={<Signin />}/> */}
           {/* <Route path="/signup" element={<Signup />}/> */}
           {/* <Route path="/shop" element={<Shop />}/> */}

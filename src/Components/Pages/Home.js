@@ -16,7 +16,7 @@ const HomePage = () => {
             <div className="about-api">
                 <article className="about-article">
                   <h2>How does it work?</h2>
-                  <p>JukeBox uses the Spotify and Ticketmaster API to pull curate playlists based on the user's input as well as upcoming shows. This web app uses a React front that is paired with a MongoDB backend.</p>
+                  <p>JukeBox uses the Spotify and Ticketmaster API to curate playlists based on the user's input as well as upcoming concerts. This web app uses a React front that is paired with a MongoDB backend. Stripe was incorporated in the record shop for purchaes.</p>
                 </article>
                 <figure className="spotify-api-figure">
                   <img src="https://images.unsplash.com/photo-1611339555312-e607c8352fd7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" alt="spotify logo" />
