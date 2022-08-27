@@ -1,0 +1,41 @@
+html, body {
+    min-width: 578px;
+    }
+
+.landing-container {
+    background: url("https://wallpaperaccess.com/full/4732810.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.bio-container {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    line-height: 2;
+    padding: 20px;
+    width: 35rem;
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 25px;
+    width: 35rem;
+}
+
+button {
+    margin-top: 0px;
+    width: 60px;
+}

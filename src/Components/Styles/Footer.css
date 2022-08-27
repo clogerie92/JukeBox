@@ -1,0 +1,22 @@
+.footer-container {
+    background: linear-gradient(to right, #FF10F0, #00ffff);
+}
+
+.footer-list {
+    /* position: fixed; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0 3%;    
+}
