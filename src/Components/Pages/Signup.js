@@ -15,11 +15,15 @@ const Signup = () => {
                 <div className="signin-portal">
                     <div className="signin-option">
                         <p>Already have an account?</p>
-                        <Link to="/signin"><button type="submit">Signin</button></Link>
+                        <Link to="/signin">
+                        <div className="signin">Signin</div>
+                    </Link>
                     </div>
                     <div className="guest-option">
                         <p>Or continue as guest</p>
-                        <Link to="/dashboard"><button type="submit">Guest</button></Link>
+                        <Link to="/dashboard">
+                            <div className="guest">Guest</div>
+                        </Link>
                     </div>
                 </div>
             </div>

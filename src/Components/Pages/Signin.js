@@ -12,10 +12,14 @@ const Signin = () => {
                 <input placeholder="Password" type="text" />
                 <button id="signin-btn" type="submit">Signin</button>
                 <div className="guest-portal">
-                    <p>Don't have an account? Continue as a guest here...</p> 
-                    <Link to="/dashboard">
-                        <div className="guest">Guest</div>
+                    <p>Don't have an account?</p> 
+                    <Link to="/signup">
+                        <div className="signup">Signup</div>
                     </Link>
+                    <p>Or continue as guest</p>
+                        <Link to="/dashboard">
+                            <div className="guest">Guest</div>
+                        </Link>
                 </div>
             </div>
         </div>
