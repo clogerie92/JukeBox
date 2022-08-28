@@ -14,7 +14,7 @@ const Signin = () => {
                 <div className="guest-portal">
                     <p>Don't have an account? Continue as a guest here...</p> 
                     <Link to="/dashboard">
-                        <button id="continue-btn" type="submit">Guest</button>
+                        <div className="guest">Guest</div>
                     </Link>
                 </div>
             </div>
